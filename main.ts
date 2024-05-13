@@ -17,4 +17,4 @@ let cleanPara : string = para.trim();
 let wordsArray : string[] = cleanPara.split(' ');
 let filteredWords = wordsArray.filter(word => word !== '');
 console.log(chalk.yellowBright.bold(`\n \t\t You typed ${filteredWords.length} words.`));
-console.log(chalk.yellowBright.bold(`\n \t\t You typed ${cleanPara}.length} characters.`));
+console.log(chalk.yellowBright.bold(`\n \t\t You typed ${cleanPara.length} characters.`));
